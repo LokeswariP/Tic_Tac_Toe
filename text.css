@@ -1,0 +1,44 @@
+*
+{
+    background-color: black;
+}
+h1{
+    color:red;
+}
+.single
+{
+    color:red;
+    border:2px solid white;
+    height:150px;
+    width:150px;
+    font-size: 90px;
+}
+.box
+{
+    width:500px;
+ display: flex;
+ flex-wrap: wrap;
+}
+.total{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.reset
+{
+    color:black;
+    background-color: bisque;
+    height:30px;
+    width: 150px;
+    border-radius: 15px;
+}
+#over
+{
+    color: cadetblue;
+    text-align: center;
+    font-size: 50px;
+}
+title
+{
+    color:red;
+}
