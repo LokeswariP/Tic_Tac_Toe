@@ -30,7 +30,8 @@ const winner = () => {
         if (pos1 != "" && pos2 != "" && pos3 != "") {
             if (pos1 == pos2 && pos2 == pos3) {
                 console.log("winner", pos1);
-                let d = document.getElementById("over").innerText = 'Winner is ${pos1} 🥳'; 
+               let d = document.getElementById("over");
+d.innerText = `Winner is ${pos1} 😎`;
                 a.forEach((butt) => {
                     butt.disabled = "true";
                 });
